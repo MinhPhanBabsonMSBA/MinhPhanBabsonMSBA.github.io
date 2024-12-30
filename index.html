@@ -22,7 +22,7 @@
     <script>
         // Fetch and display repositories
         async function fetchRepositories() {
-            const response = await fetch('https://api.github.com/users/YOUR_GITHUB_USERNAME/repos');
+            const response = await fetch('https://api.github.com/users/MinhPhanBabsonMSBA/repos');
             const repos = await response.json();
             const repoSection = document.getElementById('repositories');
             repos.forEach(repo => {
